@@ -361,56 +361,53 @@ Light Green   #7C937A
 /* FONTS
 --------------------------------*/
 /* Hanken Grotesk */
-@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk&display=swap');
+@font-face {
+  font-family: "Hanken Grotesk";
+  src: url(../fonts/Hanken-Grotesk-Regular.ttf);
+}
 /* Frankfuter Std */
-@import url('https://db.onlinewebfonts.com/c/fa09ff439ee4075e21321b6064ae2ba3?family=Frankfurter+D+OT');
+@font-face {
+  font-family: "Frankfurter Std";
+  src: url(../fonts/Frankfurter-Std-Regular.otf);
+}
 /* Frankfurter D */
-@import url('https://db.onlinewebfonts.com/c/2e07366aefba9d8cf5b5e343971ef6e4?family=Frankfurter');
+@font-face {
+  font-family: "Frankfurter D";
+  src: url(../fonts/Frankfurter-D-Regular.ttf);
+}
 
 /* GLOBAL STYLES
 --------------------------------*/
 
 /* HEADER
 --------------------------------*/
-.header-box {
-  background-color: #725446;
-  color: white;
-  display: flex;
-  align-items: center;
+.nav-pill {
+  position: fixed;
+  background-color: rgb(197, 197, 197, 0.4);
+  backdrop-filter: blur(10px);
+  z-index: 5;
+  border-radius: 100px;
+  box-shadow: 0 0 6px black;
+  right: 25px;
+  top: 20px;
+  width: 50px;
 }
 
-.site-name {
-  font-family: "Frankfurter std";
-  font-size: 2rem;
-  margin-left: 10px;
-  margin-right: auto;
-  padding: 10px;
-}
-
-.user-nav {
-  font-family: "Frankfurter D";
+.nav-pill div {
+  position: relative;
   list-style-type: none;
-  margin-right: 10px;
   display: flex;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
+  padding: 20px;
+  gap: 10px;
 }
 
-.user-nav li {
-  display: inline-block;
-  margin-left: 13px;
-}
-
-.user-nav li a {
-  text-decoration: none;
-  color: white;
-}
-
-.user-nav li a:hover {
-  color: #BCA79D;
-}
-
-.user-nav img {
-  width: 32px;
+.nav-pill img:hover {
+  border-radius: 50px;
+  box-shadow: 0 0 9px black;
+  background-color: rgba(255, 255, 255, 0.55);
 }
 
 /* IMAGE
@@ -420,7 +417,7 @@ Light Green   #7C937A
 }
 
 .wrapper {
-  height: 91.417vh;
+  height: 100vh;
   overflow-y: auto;
   overflow-x: hidden;
   perspective:11px;
