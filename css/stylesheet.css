@@ -378,6 +378,30 @@ Light Green   #7C937A
 
 /* GLOBAL STYLES
 --------------------------------*/
+.box-header {
+  position: absolute;
+  justify-self: center;
+  font-family: "Frankfurter Std";
+  background-color: #4B6049;
+  text-align: center;
+  padding: 10px 30px;
+  border-radius: 20px;
+  font-size: 3vw;
+  transform: translateY(-50%);
+}
+
+.hover-effect {
+  transform: translateY(-5px);
+  transition: transform 0.3s ease-in-out;
+}
+
+.section-title {
+  font-family: "Frankfurter Std";
+  color: #725446;
+  font-size: 8vw;
+  text-align: center;
+  margin-bottom: 3vw;
+}
 
 /* HEADER
 --------------------------------*/
@@ -455,7 +479,7 @@ Light Green   #7C937A
 .title {
   font-size: 11vw;
   color: white;
-  text-shadow: 0 0 5px black;;
+  text-shadow: 0 0 5px black;
   font-family: "Frankfurter std";
 }
 
@@ -466,11 +490,218 @@ Light Green   #7C937A
   color: white;
 }
 
-/* HOME
---------------------------------*/
 .page-start {
   height: 400vh;
   transform-style: preserve-3d;
+}
+
+/* HOME
+--------------------------------*/
+.home-page {
+  display: grid;
+  grid-template-columns: 2.5fr 1fr;
+  height: fit-content;
+}
+
+.home-post {
+  grid-column: 1 / 2;
+  display: grid;
+  grid-template-rows: 1fr 0.4fr;
+  gap: 5vw;
+  height: fit-content;
+}
+
+.latest-post {
+  display: grid;
+  grid-template-columns: 2.5fr 1fr;
+  grid-row: 1 / 2;
+  border-radius: 25px;
+  height: 100%;
+  box-shadow: 0 0 9px black;
+}
+
+.latest-post img {
+  grid-column: 1 / 2;
+  width: 100%;
+  height: 100%;
+  border-radius: 25px 0 0 25px;
+}
+
+.latest-desc {
+  grid-column: 2 / 3;
+  width: 100%;
+  background-color: white;
+  font-size: 1.5vw;
+  color: #87736A;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  border-radius: 0 25px 25px 0;
+  font-family: "Hanken Grotesk";
+}
+
+.latest-desc p {
+  display: -webkit-box;
+  -webkit-line-clamp: 8;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.latest-desc a {
+  color: #725446;
+}
+
+.latest-desc a:hover {
+  color: #7C937A;
+}
+
+.for-you {
+  display: grid;
+  grid-row: 2 / 3;
+  background-color: #87736A;
+  border-radius: 25px;
+  box-shadow: 0 0 9px black;
+  height: fit-content;
+}
+
+.carousel {
+  display: flex;
+  overflow-x: scroll;
+  box-sizing: border-box;
+  margin: 30px;
+}
+
+.carousel-box
+{
+  position: relative;
+  width: 230px;
+  height: 130px;
+  box-shadow: 0 4px 6px 1px black;
+  border-radius: 15px;
+  margin: 10px;
+  box-sizing: border-box;
+}
+
+.carousel-box img
+{
+  width: 230px;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.overlay-txt
+{
+ position: absolute;
+ width: 230px;
+ height: 40px;
+ top: 91px;
+ color: white;
+ background-color: rgb(124, 147, 122, 0.820);
+ border-radius: 15px;
+ font-size: small;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ font-family: "Hanken Grotesk";
+}
+
+.overlay-txt a{
+  color: white;
+}
+
+.overlay-txt a:hover {
+  color: #ffe5da;
+}
+
+.login-box {
+  grid-column: 2 / 3;
+  background-color: #4B6049;
+  box-shadow: 0 4px 6px 1px black;
+  margin-left: 2vw;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-box h2 {
+  font-family: "Frankfurter Std";
+  color: white;
+  font-size: 3vw;
+  text-align: center;
+  margin-top: 5vw;
+}
+
+.login-box form {
+  display: flex;
+  flex-direction: column;
+  font-family: "Hanken Grotesk";
+  font-size: 1.5vw;
+  align-items: center;
+  margin-top: 2vw;
+}
+
+.username {
+  margin-bottom: 1vw;
+}
+
+.username input {
+  margin-top: 0.3vw;
+  border-radius: 5px;
+}
+
+.password {
+  margin-bottom: 1vw;
+}
+
+.password input {
+  margin-top: 0.3vw;
+  border-radius: 5px;
+  margin-bottom: 0.3vw;
+}
+
+.password a {
+  color: white;
+}
+
+.password a:hover {
+  color: #ffe5da;
+}
+
+.login-button {
+  margin-top: 2vw;
+  border-radius: 10px;
+  width: 12vw;
+  height: 4.5vw;
+  font-family: "Frankfurter Std";
+  color: rgba(250, 231, 201);
+  background-color: rgba(213, 161, 92, 0.692);
+  box-shadow: 3px 4px 6px 1px #2828287e;
+}
+
+.login-button:hover
+{
+  background-color: rgba(250, 231, 201);
+  color: rgba(213, 161, 92, 0.692);
+  box-shadow: 0px 0px 0px 0px #2828287e;
+}
+
+.login-box p {
+  text-align: center;
+  font-size: 1.2vw;
+  color: white;
+  margin-top: 5vw;
+  padding: 0 2vw;
+}
+
+.login-box p a {
+  color: white;
+}
+
+.login-box p a:hover {
+  color: #ffe5da;
 }
 
 /* BLOGS
@@ -483,4 +714,68 @@ Light Green   #7C937A
 --------------------------------*/
 .footer-box {
   background-color: #725446;
+}
+
+/* MEDIA QUERIES
+--------------------------------*/
+@media (max-width: 768px) {
+  .box-header {
+    font-size: 5vw;
+  }
+
+  .section-title {
+    font-size: 8vw;
+    margin-bottom: 5vw;
+  }
+
+  .home-page {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .latest-post {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .latest-post img {
+    border-radius: 25px 25px 0 0;
+  }
+
+  .latest-desc {
+    border-radius: 0 0 25px 25px;
+    font-size: 3vw;
+  }
+
+  .for-you {
+    margin-top: 3vw;
+  }
+
+  .login-box {
+    margin-left: 0;
+    margin-top: 3vw;
+    height: fit-content;
+  }
+
+  .login-box h2 {
+    font-size: 5vw;
+  }
+
+  .login-box form {
+    font-size: 3vw;
+  }
+
+  .login-button {
+    margin-top: 7vw;
+    width: 30vw;
+    height: 10vw;
+    font-size: 4vw;
+  }
+
+  .login-box p {
+    font-size: 2.5vw;
+    margin: 10vw 0;
+  }
+
 }
