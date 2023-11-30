@@ -1101,7 +1101,7 @@ Light Green   #7C937A
   }
 
   .featured-blog {
-    margin-top: 6vw;
+    margin-top: 7vw;
   }
 
   .featured-blog img {
@@ -1148,7 +1148,7 @@ Light Green   #7C937A
     display: flex;
     overflow-x: auto;
     box-sizing: border-box;
-    height: 55vw;
+    height: 70vw;
     align-items: center;
   }
   
@@ -1161,7 +1161,7 @@ Light Green   #7C937A
     box-shadow: 0 0 6px black;
     flex: 0 0 40vw;
     width: 40vw;
-    height: 50vw;
+    height: 60vw;
   }
 
   .blog-desc a {
