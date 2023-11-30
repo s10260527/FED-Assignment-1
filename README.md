@@ -2,7 +2,7 @@
 
 Welcome to our cozy corner of the web! This is a space where I and all of you wonderful tech enthusiasts and developers can gather to share our dev blogs. Whether you’re just starting out or you’re an advanced coder, this is the place for you to share your knowledge, discuss your interests, and geek about all things tech! 🤓
 
-## Desgin Processs
+## Design Processs
 
 Our community-driven forum is all about exploration and development in the world of HTML, CSS, Javascript, and beyond! So come on in, let’s learn and grow together in this exciting journey of coding! 💪
 
