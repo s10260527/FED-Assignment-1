@@ -652,6 +652,7 @@ Light Green   #7C937A
  align-items: center;
  justify-content: center;
  font-family: "Hanken Grotesk";
+ text-align: center;
 }
 
 .overlay-txt a{
@@ -838,6 +839,7 @@ Light Green   #7C937A
 
 .featured-blog img {
   width: 100%;
+  height: 40vw;
   object-fit: cover;
   grid-column: 1 / 3;
   border-radius: 25px 0 0 25px;
@@ -941,7 +943,7 @@ Light Green   #7C937A
 
 .blog-box img {
   width: 100%;
-  height: 45%;
+  height: 25vw;
   object-fit: cover;
 }
 
@@ -1153,7 +1155,11 @@ Light Green   #7C937A
 .social-icon img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
+}
+
+.social-icon img:hover {
+  opacity: 0.5;
 }
 
 .mailing-list {
@@ -1312,6 +1318,7 @@ Light Green   #7C937A
 
   .featured-blog img {
     grid-column: span 3;
+    height: 57vw;
     border-radius: 25px 25px 0 0;
   }
 
@@ -1368,6 +1375,10 @@ Light Green   #7C937A
     flex: 0 0 40vw;
     width: 40vw;
     height: 60vw;
+  }
+
+  .blog-box img {
+    height: 50vw;
   }
 
   .blog-desc a {
@@ -1467,7 +1478,7 @@ Light Green   #7C937A
 
   .attribute-box ul li {
     font-size: 3.6vw;
-    margin-bottom: 0;
+    margin-bottom: 2.5vw;
   }
 
   /* FOOTER */
@@ -1524,7 +1535,7 @@ Light Green   #7C937A
 
   .mailing-list input[type="email"] {
     font-size: 3vw;
-    width: 80%;
+    width: 60%;
     padding: 2vw;
   }
 
