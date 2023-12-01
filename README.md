@@ -23,7 +23,7 @@ With the website being a work in progress, you might come across minor bugs and 
 - Floating Navigation Bar and Account Pill
 - Horizontal-Scrolling Carousel
 - Login Section
-- Somewhat Dynamic Website
+- Somewhat Responsive Website
 - JavaScript Implementation (Hover Animation)
 
 ### Features to Implement
