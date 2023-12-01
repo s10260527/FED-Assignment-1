@@ -803,6 +803,11 @@ Light Green   #7C937A
   width: 90%;
 }
 
+.filters a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.5);
+}
+
 .filters p {
   font-size: 2vw;
 }
@@ -893,6 +898,11 @@ Light Green   #7C937A
   text-align: center;
   box-shadow: 3px 4px 6px 1px #2828287e;
   height: fit-content;
+}
+
+.own-blog a {
+  text-decoration: none;
+  color: white;
 }
 
 .own-blog:hover {

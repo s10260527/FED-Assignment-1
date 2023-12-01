@@ -19,15 +19,18 @@ For the curious minds out there itching to get a sneak peak at the initial wiref
 With the website being a work in progress, you might come across minor bugs and hiccups, but rest assured that I'll be doing my best to patch them! 🧰
 
 ### Existing Features
-- Website Layout and Color (Home Page)
-- Floating Navigation Bar
+- Website Layout, Color and Content (Main Pages)
+- Floating Navigation Bar and Account Pill
 - Horizontal-Scrolling Carousel
-- Login Section Layout
+- Login Section
+- Somewhat Dynamic Website
+- JavaScript Implementation (Hover Animation)
 
 ### Features to Implement
-- Website Layout and Color (Blogs Page + About Me Page)
-- JavaScript Implementation (Animations + Page Functions)
-- Dynamic Website (Adapting to Multiple Devices)
+- Better Scaling and Web Responsive Design
+- Blog Page Layout
+- Working Blog Search and Filters
+- Account Pill Menu
 
 ## Materials Used
 
@@ -46,4 +49,7 @@ Here are some of the materials used in the development of the website.
 ## Credits
 
 ### Content
-- By ***Marvin*** - Solo Developer
+- Web Layout and Program (By ***Marvin***)
+- Stock Images ([***Unsplash***](https://unsplash.com/images/stock))
+- Icons ([***IconFinder***](https://www.iconfinder.com/))
+- Content Titles and Descriptions ([***Microsoft Bing Chat***](https://www.bing.com/search?q=Bing+AI&showconv=1))
