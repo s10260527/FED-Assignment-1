@@ -1473,7 +1473,7 @@ Light Green   #7C937A
   /* FOOTER */
   .footer-box {
     gap: 0;
-    padding-bottom: 5vw;
+    padding-bottom: 10vw;
     justify-content: center;
   }
 
