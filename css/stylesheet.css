@@ -714,6 +714,7 @@ Light Green   #7C937A
 .blog-page {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: 2.15vw;
 }
 
 .search-box {
@@ -985,11 +986,80 @@ Light Green   #7C937A
 
 /* ABOUT ME
 --------------------------------*/
+.about-page {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.about-page img {
+  width: 21vw;
+  height: 21vw;
+  object-fit: cover;
+  grid-column: 1 / 2;
+  border-radius: 1000px;
+  align-self: center;
+  justify-self: center;
+  box-shadow: 0 0 9px black;
+}
+
+.description {
+  grid-column: 2 / 3;
+  margin-left: 5vw;
+}
+
+.description h1 {
+  font-family: "Frankfurter Std";
+  font-size: 3vw;
+  color: #4B6049;
+}
+
+.description p {
+  font-family: "Hanken Grotesk";
+  font-size: 1.5vw;
+  color: #87736A;
+}
+
+.attributes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column: span 2;
+  grid-row: 2 / 3;
+  border: 1px solid green;
+  height: 35vw;
+  margin-top: 5vw;
+  gap: 3vw;
+}
+
+.attribute-box {
+  display: grid;
+  background-color: #725446;
+  border-radius: 25px;
+  box-shadow: 0 0 6px black;
+  grid-column: span 1;
+  padding: 0 1vw;
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+.attribute-box ul {
+  list-style-type: none;
+  padding: 0;
+  align-self: center;
+}
+
+.attribute-box ul li {
+  font-family: "Hanken Grotesk";
+  font-size: 2.5vw;
+  text-align: center;
+  margin-bottom: 1.5vw;
+}
 
 /* FOOTER
 --------------------------------*/
 .footer-box {
-  background-color: #725446;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr 1fr;
+  background-color: ;
 }
 
 /* MEDIA QUERIES
@@ -1066,6 +1136,7 @@ Light Green   #7C937A
   /* BLOGS */
   .blog-page {
     margin-top: -8vw;
+    margin-bottom: 7vw;
   }
 
   .search-box {
@@ -1204,5 +1275,67 @@ Light Green   #7C937A
   .reco-blog div {
     border-bottom: 0.4vw dashed #4B6049;
   }
+
+  /* ABOUT ME */
+  .about-page img {
+    grid-row: 1 / 2;
+    grid-column: span 2;
+    width: 50vw;
+    height: 50vw;
+    margin-top: -4vw;
+  }
+
+  .description {
+    grid-row: 2 / 3;
+    grid-column: span 2;
+    margin-left: 0;
+    margin-top: 2vw;
+  }
+
+  .description h1 {
+    font-size: 6vw;
+    text-align: center;
+  }
+
+  .description p {
+    font-size: 3vw;
+    text-align: center;
+  }
+
+  .attributes {
+    grid-row: 3 / 4;
+    height: 66vw;
+    margin-top: 5vw;
+    display: flex;
+    overflow-x: auto;
+    box-sizing: border-box;
+    align-items: center;
+    position: relative;
+  }
+
+  .attribute-box .box-header {
+    font-size: 3.7vw;
+    position: absolute;
+    transform: translateY(-50%);
+    height: fit-content;
+  }
+
+  .attribute-box {
+    flex: 0 0 auto;
+    width: 37vw;
+    height: 54vw;
+  }
+
+  .attribute-box ul {
+    align-self: center;
+  }
+
+  .attribute-box ul li {
+    font-size: 3.6vw;
+    margin-bottom: 0;
+  }
+
+  /* FOOTER */
+
 
 }
