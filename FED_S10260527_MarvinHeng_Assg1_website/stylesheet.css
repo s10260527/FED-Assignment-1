@@ -363,17 +363,17 @@ Light Green   #7C937A
 /* Hanken Grotesk */
 @font-face {
   font-family: "Hanken Grotesk";
-  src: url(../fonts/Hanken-Grotesk-Regular.ttf);
+  src: url(fonts/Hanken-Grotesk-Regular.ttf);
 }
 /* Frankfuter Std */
 @font-face {
   font-family: "Frankfurter Std";
-  src: url(../fonts/Frankfurter-Std-Regular.otf);
+  src: url(fonts/Frankfurter-Std-Regular.otf);
 }
 /* Frankfurter D */
 @font-face {
   font-family: "Frankfurter D";
-  src: url(../fonts/Frankfurter-D-Regular.ttf);
+  src: url(fonts/Frankfurter-D-Regular.ttf);
 }
 
 /* GLOBAL STYLES
