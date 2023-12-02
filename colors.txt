@@ -1,7 +1,0 @@
-COLOR PALETTE
-
-Dark Brown    #725446
-Light Brown   #87736A
-Beige         #BCA79D
-Dark Green    #4B6049
-Light Green   #7C937A
